@@ -1,0 +1,38 @@
+c++ stl contain major 4 parts 
+1.container (contains basic data str.)
+2.iterator 
+3.algoritham
+4.functors
+
+container-: sequential (vector,stack,queue,pair(NA))
+            ordered (map,set, multimap,multiset)
+            unordered(unordered_map,unordered_set)
+  
+nested container -: vector<vector<int>>
+                    map<int,vector<int>>
+                    set<pair<int,string>>
+                    vector<map<int,set<int>>>
+
+
+
+iterator -: points to memory address of container 
+           begin(),end()
+           vector<int>::iterator it 
+
+
+
+algorithams -:upper_bound , lower_bound , sort(comparator) , max_element , min_element ,
+             accumulate , reverse , count , find , next permutation , prev permutation
+            
+
+
+functors-: classes which act as funtions  
+
+
+
+
+
+precomputation technique-: results are pre computed and stored for the further
+                           computation
+ 
+
